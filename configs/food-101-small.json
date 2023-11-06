@@ -1,0 +1,7 @@
+{
+  "path": "/home/usr/food-101/small_images",
+  "height": 128,
+  "width": 128,
+  "batch_size": 64,
+  "channel": 3
+}

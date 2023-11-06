@@ -1,0 +1,25 @@
+{
+  "seed": 25,
+  "epochs": 200,
+  "model": {
+    "channel1": 64,
+    "channel2": 128,
+    "channel3": 256,
+    "channel4": 512,
+    "kernel": 4,
+    "stride1": 2,
+    "stride2": 1,
+    "padding1": 1,
+    "padding2": 0,
+    "neg_slope": 0.2,
+    "noise_channel": 100
+  },
+  "optim": {
+    "lr_g": 0.0002,
+    "lr_d": 0.0002,
+    "betas1_g": 0.5,
+    "betas2_g": 0.999,
+    "betas1_d": 0.5,
+    "betas2_d": 0.999
+  }
+}
